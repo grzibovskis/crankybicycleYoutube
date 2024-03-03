@@ -1,0 +1,21 @@
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1400px;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgb(0, 0, 0);
+}
+.footer-contacts > li {
+    display: block;
+}
+.footer-c{
+    text-align: center;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1000px) {
+    .footer-menu{
+        grid-template-columns: 1fr 1fr;
+    }
+}

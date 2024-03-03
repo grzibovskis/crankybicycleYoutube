@@ -1,0 +1,18 @@
+.container-main-events {
+    max-width: 1400px;
+    margin: 200px auto;
+    text-align: center;
+}
+.container-main-circle{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 239, 239);
+    border-radius: 50%;
+}
+.container-main-circle > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}

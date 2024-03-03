@@ -1,0 +1,9 @@
+.container-topnavbar-grid {
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+} 
+.right {
+    float: right;
+    margin-right: 3em;
+}

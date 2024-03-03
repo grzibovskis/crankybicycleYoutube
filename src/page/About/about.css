@@ -1,0 +1,28 @@
+.container-main-about {
+    max-width: 1400px;
+    margin: 2em auto;
+    text-align: center;
+}
+.container-about-both {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container-about-crankybicycle-image{
+    width: 300px;
+    height: 300px;
+}
+.container-about-crankybicycle-bike {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+}
+.container-about-p{
+    margin: 3em auto;
+    width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .container-about-both{
+        grid-template-columns: 1fr;
+    }
+}

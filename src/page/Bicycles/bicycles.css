@@ -1,0 +1,13 @@
+.container-main-bicycles {
+    max-width: 1400px;
+    margin: 2em auto;
+    text-align: center;
+}
+.container-main-bicycles-desc {
+    margin: 2em;
+    width: 400px;
+    border-top: 2px solid #ff0000;
+}
+.container-main-bicycles-desc > a {
+    color: #ff0000;
+}
